@@ -78,4 +78,4 @@ def get_settings() -> Settings:
     except ValidationError as exc:
         raise RuntimeError(
             f"Invalid application settings. Check your .env file.\n{exc}"
-        ) from exc
+        ) from exc   
